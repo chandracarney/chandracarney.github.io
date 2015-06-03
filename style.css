@@ -1,0 +1,18 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-weight: 200;
+  color: #000000;
+  background-color: #D1E0E0;
+}
+
+nav {
+  text-align: left;
+  padding: 20px;
+}
+
+.avatar img {
+  width: 120px;
+  display: block;
+  border-radius: 10px;
+}
