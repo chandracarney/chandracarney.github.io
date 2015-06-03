@@ -6,9 +6,30 @@ body {
   background-color: #D1E0E0;
 }
 
+p {
+  line-height: 40px;
+  text-align: center;
+}
+
+a {
+  color: #666666;
+  text-decoration: none;
+  padding: 20px;
+  display: block;
+}
+
+a:hover {
+  color: #4C001A;
+}
+
 nav {
   text-align: left;
   padding: 20px;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
 }
 
 .avatar img {
