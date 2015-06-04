@@ -9,17 +9,22 @@
 
   </head>
   <body>
-    <nav>
-      <a class="avatar" title="Chandra Carney" href="/">
-        <img src="https://s.gravatar.com/avatar/263f8a11624f38f8551029e18dc4f8db?s=150" alt="Chandra Carney" />
-      </a>
-      <a title="twitter" href="http://twitter.com/chandracarney">twitter</a>
-      <a title="github" href="https://github.com/chandracarney">github</a>
-      <a title="email" href="mailto:chandrabcarney@gmail.com">email</a>
-    </nav>
+    <div class="wrapper">
+      <nav>
+        <ul>
+          <li class="home-link"><a href="/">chandracarney.com</a></li>
+          <li><a class="avatar" href="/">
+            <img src="https://s.gravatar.com/avatar/263f8a11624f38f8551029e18dc4f8db?s=150" alt="Chandra Carney" />
+          </a></li>
+          <li><a href="http://twitter.com/chandracarney">twitter</a></li>
+          <li><a href="https://github.com/chandracarney">github</a></li>
+          <li><a href="mailto:chandrabcarney@gmail.com">email</a></li>
+        </ul>
+      </nav>
 
-    <div class='container'>
-      {{ content }}
+      <div class="container">
+        {{ content }}
+      </div>
     </div>
   </body>
 </html>
